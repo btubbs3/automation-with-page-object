@@ -22,7 +22,7 @@ When /^I enter the regexp \(\.\*\)@\(\.\*\)\\\.\(\.\*\) and test string jdenen@c
   end
 end
 
-Then /^it returns a match result of jden@cscc.edu$/ do
+Then /^it returns a match result of jdenen@cscc.edu$/ do
   on_page(RubularResults) do |page|
 	  expect(page.get_match_results).to eq("jdenen@cscc.edu")
 	end
