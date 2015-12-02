@@ -4,13 +4,6 @@ require 'page-object'
 include PageObject::PageFactory
 
 
-# Hooks
-Before do
-	@browser = Watir::Browser.new
-end
-After do
-	@browser.close
-end
 
 
 # When I enter the regexp (.*)@(.*)\.(.*)
